@@ -12,51 +12,6 @@
 <script src="https://unpkg.com/react-dom@18/umd/react-dom.production.min.js" crossorigin></script>
 <script src="https://unpkg.com/react-router-dom@6/umd/react-router-dom.min.js" crossorigin></script>
 
-
-
-
-
-</script>
-
-
-<script type="text/babel">                                                              const Link = ReactRouterDOM.Link                                                        const Route = ReactRouterDOM.Route;
-                                                                                        const App = () => (
-<ReactRouterDOM.HashRouter>
-<Route path="/" exact component={Home} />                                               <Route path="/about" component={About} />
-<Route path="/contact" component={Contact} />                                           </ReactRouterDOM.HashRouter>
-
-);
-
-function Home(){
-return (<h1>Homw</h1>)
-};
-/*                                                                                      const Home = () =>(
-<section class="my-5 py-5">
-  <div class="container">
-    <div classs="row">
-<div className="col-lg-6">                                                                        <span class="badge bg-primary mb-3">
-            Home
-          </span>
-          <h2 class="text-dark mb-0">Acsolot Integrated Services </h2>
-          <p class="lead">We have created multiple options for you to put together and customise into pixel perfect pages. </p>
-        </div>
-      </div>
-      </div>
-  </section>
-  )
-
-*/
-function About(){
-return (<h1>About</h1>)
-};
-
-function Contact(){
-return (<h1>Register</h1>)
-};
-
-ReactDOM.render(<App />, document.querySelector('#root'));
-</script>
-
 <title>
 Acsolot Integrated services Ltd.
 </title>
@@ -7586,19 +7541,20 @@ const App = () => (
 <Route path="/contact" component={Contact} />
 </ReactRouterDOM.HashRouter>
 
-)
-const.Home = () =><h1>Homw</h1>
+);
+
+const Home = () =><h1>Homw</h1>
 /*
 const Home = () =>(
-<section className="my-5 py-5">
-  <div className="container">
-    <div className="row">
-<div className="col-lg-6">
-          <span className="badge bg-primary mb-3">
+<section class="my-5 py-5">
+  <div class="container">
+    <div class="row">
+<div class="col-lg-6">
+          <span class="badge bg-primary mb-3">
             Home
           </span>
-          <h2 className="text-dark mb-0">Acsolot Integrated Services </h2>
-          <p className="lead">We have created multiple options for you to put together and customise into pixel perfect pages. </p>
+          <h2 class="text-dark mb-0">Acsolot Integrated Services </h2>
+          <p class="lead">We have created multiple options for you to put together and customise into pixel perfect pages. </p>
         </div>
       </div>
       </div>
