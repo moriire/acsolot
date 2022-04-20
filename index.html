@@ -200,9 +200,25 @@ Acsolot Integrated services Ltd.
         </ReactRouterDOM.HashRouter>
       )
 
-      const Home = () => <h1>Home</h1>
-      const About = () => <h1 class="h1">Login</h1>
-      const Services = () => <h1>Register</h1>
+      const Home = () =>{ return (
+<section className="my-5 py-5">
+  <div class="container">
+    <div className="row">
+<div className="col-lg-6">
+          <span className="badge bg-primary mb-3">
+            Home
+          </span>
+          <h2 className="text-dark mb-0">Acsolot Integrated Services </h2>
+          <p className="lead">We have created multiple options for you to put together and customise into pixel perfect pages. </p>
+        </div>
+      </div>
+      </div>
+  </section>
+  )
+  };
+      const About = () => <h1 class="h1">Login</h1>;
+
+const Services = () => <h1>Register</h1>
 
       ReactDOM.render(<App />, document.querySelector('#root'));
     </script>
