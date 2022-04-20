@@ -195,8 +195,8 @@ Acsolot Integrated services Ltd.
         </ReactRouterDOM.HashRouter>
       )
 
-const Home = () =>{ return (
-      <>
+function Home(){ return (
+      <div>
 <section className="my-2 py-2">
   <div className="container">
     <div className="row">
@@ -211,13 +211,13 @@ const Home = () =>{ return (
       </div>
       </div>
   </section>
-  </>
+  </div>
   )
   };
 
 
-const About = () =>{ return (
-<>
+function About(){ return (
+<div>
 <section className="my-2 py-2" >
   <div className="container">
     <div className="row">
@@ -234,16 +234,19 @@ Acsolot Integrated Services; formally Ages Xpat Technology, is a NG-based IT-con
       </div>
       </div>
   </section>
-  </>
+  </div>
   )
 
 };
 
-const Services = () =><h1>Register</h1>;
+const Services = () =>{
+<h1>Register</h1>;
+};
+
 
 function Web(){ 
 return (
-<>
+<div>
 <section className="my-5 py-5">
   <div className="container">
     <div className="row align-items-center">
@@ -288,7 +291,7 @@ return (
     </div>
   </div>
 </section>
-</>
+</div>
 )
 };
 
