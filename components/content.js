@@ -13,6 +13,8 @@ const Home = () =><h1>Homw</h1>
 
 const Services = () =><h1>Homw</h1>
 
+const Contact = () =><h1>Homw</h1>
+
 const Web = () =><h1>Homw</h1>
 
 const About = () =>(
