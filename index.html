@@ -188,12 +188,6 @@ Acsolot Integrated services Ltd.
 
       const App = () => (
         <ReactRouterDOM.HashRouter>
-          <ul>
-            <li><Link to="/">Home</Link></li>
-            <li><Link to="/about">Login</Link></li>
-            <li><Link to="/services">Register</Link></li>
-          </ul>
-
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
           <Route path="/services" component={Services} />
@@ -218,7 +212,7 @@ Acsolot Integrated services Ltd.
   )
   };
 
-const About = () =>{ return (
+const About = () => { return (
 <section className="my-5 py-5">
   <div class="container">
     <div className="row">
@@ -238,10 +232,9 @@ const About = () =>{ return (
 
 };
 
-const Services = () => <h1>Register</h1>
+const Services = () => <h1>Register</h1>;
 
-const Web = () => {
-return (
+const Web = () =>{ return (
 <section className="my-5 py-5">
   <div className="container">
     <div className="row align-items-center">
@@ -293,9 +286,7 @@ ReactDOM.render(<App />, document.querySelector('#root'));
     </script>
 
 
-
-
-
+	
 </div>
 
   </div>
