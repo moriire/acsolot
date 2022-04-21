@@ -119,7 +119,10 @@ Acsolot Integrated services Ltd.
 
 
 
-	<li class="nav-item mx-2">                                        <a href="/acsolot/#/contact" class="nav-link ps-2 d-flex cursor-pointer align-items-center" aria-expanded="false">                        <i class="material-icons opacity-6 me-2 text-md">dashboard</i>                         Contact us                                     </a>                                                                          </li>
+	<li class="nav-item mx-2">                              <a href="/acsolot/#/contact" class="nav-link ps-2 d-flex cursor-pointer align-items-center" aria-expanded="false">
+			<i class="material-icons opacity-6 me-2 text-md">dashboard</i>                         Contact us
+		</a>
+	</li>
 
         </li>
       </ul>
@@ -153,12 +156,8 @@ Acsolot Integrated services Ltd.
         <ReactRouterDOM.HashRouter>
           <Route path="/" exact component={Home} />
           <Route path="/about" component={About} />
-          <Route path="/services" component={Services} />
-	  <Route path="/web" component={Web} />
-
-
 	  <Route path="/cctv" component={Cctv} />
-          <Route path="/data" component={Data} />                                                             <Route path="/web" component={Web} />
+          <Route path="/data" component={Data} />               <Route path="/web" component={Web} />
 	  <Route path="/network" component={Network} />
         </ReactRouterDOM.HashRouter>
       )
@@ -206,7 +205,6 @@ Acsolot Integrated Services; formally Ages Xpat Technology, is a NG-based IT-con
   )
 
 };
-
 
 function Web(){ 
 return (
@@ -299,7 +297,7 @@ return (
         </div>                                                                                                                                      </div>                                                                                                                                      </div>                                                                                                                                      </div>
 </section>
 </div>
-)                                                                                                                                             };
+)                                                     };
 
 
 function Data(){
@@ -344,16 +342,19 @@ on.</p>
         </div>
       </div>
     </div>
-  </div>                                                                                                                                      </section>
+  </div>                                                                                                   
+</section>
 </div>
 )
 };
 
 
 function Cctv(){
-return (                                                                                                                                      <div>
+return ( 
+<div>
 <section className="my-2 py-2">
-  <div className="container">                                                                                                                     <div className="row align-items-center">
+  <div className="container">
+    <div className="row align-items-center">
       <div className="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-4">                                                                                  <div className="rotating-card-container">                                                                                                       <div className="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5">
             <div className="front front-background" >
               <div className="card-body py-7 text-center">
