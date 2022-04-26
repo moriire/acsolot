@@ -436,13 +436,16 @@ ReactDOM.render(<App />, document.querySelector('#root'));
 
 
 <script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
+
+
+<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
         <script>
           var wa_btnSetting = {"btnColor":"#e91e63","ctaText":"WhatsApp us","cornerRadius":40,"marginBottom":20,"marginLeft":20,"marginRight":20,"btnPosition":"right","whatsAppNumber":"","welcomeMessage":"Welcome to Acsolot Integrated Services. How can we help you?","zIndex":999999,"btnColorScheme":"light"};
+          var wa_widgetSetting = {"title":"Acsolot Integrated Services Ltd ","subTitle":"Typically replies in a day","headerBackgroundColor":"#ffdbf1","headerColorScheme":"dark","greetingText":"Welcome to Acsolot Integrated Services Ltd! \nHow can I help you?","ctaText":"Start Chat","btnColor":"#e91e63","cornerRadius":40,"welcomeMessage":"Hello","btnColorScheme":"light","brandImage":"","darkHeaderColorScheme":{"title":"#333333","subTitle":"#4F4F4F"}};
           window.onload = () => {
-            _waEmbed(wa_btnSetting);
+            _waEmbed(wa_btnSetting, wa_widgetSetting);
           };
         </script>
-
 
 
 </body>
