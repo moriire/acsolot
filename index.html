@@ -1,492 +1,323 @@
 <!DOCTYPE html>
-<html lang="en" itemscope itemtype="http://schema.org/WebPage">
-
+<html lang="en">
 <head>
-
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name = "theme-color" content="#e91e63">
-
-<link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
-<link rel="icon" type="image/png" href="./assets/img/favicon.png">
-
-<script src='https://unpkg.com/react@16.3.1/umd/react.production.min.js'></script>
-    <script src='https://unpkg.com/react-dom@16.3.1/umd/react-dom.production.min.js'>    </script>
-    <script src='https://unpkg.com/react-router-dom@5.0.0/umd/react-router-dom.min.js'></script>
-    <script src='https://unpkg.com/babel-standalone@6.26.0/babel.js'></script>
-
-
-<title>
-Acsolot Integrated services Ltd.
-</title>
-
-<!--     Fonts and icons     -->
-<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900|Roboto+Slab:400,700" />
-
-<!-- Nucleo Icons -->
-<link href="./assets/css/nucleo-icons.css" rel="stylesheet" />
-<link href="./assets/css/nucleo-svg.css" rel="stylesheet" />
-
-<!-- Font Awesome Icons -->
-<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-
-<!-- Material Icons -->
-<link href="https://fonts.googleapis.com/icon?family=Material+Icons+Round" rel="stylesheet">
-
-<!-- CSS Files -->
-<link id="pagestyle" href="./assets/css/material-kit.css?v=3.0.2" rel="stylesheet" />
-<style>
-.web-image{
-	background-image: url('./assets/img/web-bg.jpeg');
-	background-size: cover;
-	background-position: center center;
-}
-
-.network-image{
-	background-image: url('./assets/img/network-bg.jpeg');
-	background-size: cover;
-        background-position: center center;
-}
-
-.cctv-image{
-	background-image: url('./assets/img/cctv-bg.jpeg');
-	background-size: cover;
-	background-position: center center;
-}
-
-.data-image{
-	background-image: url('./assets/img/data-bg.jpeg');
-	background-size: cover;
-	background-position: center center;
-}
-</style>
+  <title>Acsolot Integrated Services-AiS</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="description" content="Acsolot Integrated Services-AiS, is an innovative I.T. and software development company">
+  <meta name="keywords" content="Acsolot Integrated Services AiS AIS IT I.T. Web development software programming django vuejs vue website networking">
+  <meta name="author" content="IBM Abdulsalam">
+  <link rel="stylesheet" href="assets/css/main.css">
 </head>
+<body>
 
-<body class="index-page bg-gray-200">
-  <!-- Navbar -->
-<div class="container position-sticky z-index-sticky top-0"><div class="row"><div class="col-12">
-<nav class="navbar navbar-expand-lg  blur border-radius-xl top-0 z-index-fixed shadow position-absolute my-3 py-2 start-0 end-0 mx-4">
- <div class="container-fluid px-0">
-    <a class="navbar-brand font-weight-bolder ms-sm-3" href="./#/" rel="tooltip" title="Acsolot Integrated Services" data-placement="bottom">
-	    Acsolot<sup> &#174;</sup>
-    </a>
-    <button class="navbar-toggler shadow-none ms-2" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon mt-2">
-        <span class="navbar-toggler-bar bar1"></span>
-        <span class="navbar-toggler-bar bar2"></span>
-        <span class="navbar-toggler-bar bar3"></span>
-      </span>
-    </button>
-    <div class="collapse navbar-collapse pt-3 pb-2 py-lg-0 w-100" id="navigation">
-      <ul class="navbar-nav navbar-nav-hover ms-auto">
-        <li class="nav-item mx-2">
-          <a href="/#/" class="nav-link ps-2 d-flex cursor-pointer align-items-center"
-          aria-expanded="false">
-            <i class="material-icons opacity-6 me-2 text-md">dashboard</i>
-            Home
-          </a>
-        
-        </li>
-
-	<li class="nav-item mx-2">                <a href="/#/about" class="nav-link ps-2 d-flex cursor-pointer align-items-center" aria-expanded="false">                                            <i class="material-icons opacity-6 me-2 text-md">dashboard</i>About                                   </a>                                                                                                  </li>
-
-        <li class="nav-item dropdown dropdown-hover mx-2">
-          <a class="nav-link ps-2 d-flex cursor-pointer align-items-center" id="dropdownMenuBlocks" data-bs-toggle="dropdown" aria-expanded="false">
-            <i class="material-icons opacity-6 me-2 text-md">view_day</i>
-            Services
-            <img src="./assets/img/down-arrow-dark.svg" alt="down-arrow" class="arrow ms-auto ms-md-2">
-          </a>
-          <ul class="dropdown-menu dropdown-menu-end dropdown-menu-animation dropdown-md dropdown-md-responsive p-3 border-radius-lg mt-0 mt-lg-3" aria-labelledby="dropdownMenuBlocks">
-<div class="row d-lg-none">
-  <div class="col-md-12">
-    <div class="d-flex mb-2">
-      <div class="icon h-10 me-3 d-flex mt-1">
-        <i class="ni ni-single-copy-04 text-gradient text-primary"></i>
-      </div>
-      <a href="/#/web" class="nav-link ps-2 d-flex cursor-pointer align-items-center" >
-      <div class="w-100 d-flex align-items-center justify-content-between">
-        <div>
-          <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Web Applications Development</h6>
-        </div>
-      </div>
-      </a>
-    </div>
-
-    <div class="d-flex mb-2">                        <div class="icon h-10 me-3 d-flex mt-1">         <i class="ni ni-single-copy-04 text-gradient text-primary"></i>                             </div>
-	    <a href="/#/network" class="nav-link ps-2 d-flex cursor-pointer align-items-center" >
-	    <div class="w-100 d-flex align-items-center justify-content-between">                           <div>
-			    <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Network Engineering
-	  </h6>                                       </div>                                       </div> 
-	    </a>
-    </div>
-
-
-
-    <div class="d-flex mb-2">                        <div class="icon h-10 me-3 d-flex mt-1">         <i class="ni ni-single-copy-04 text-gradient text-primary"></i>                             </div>  
-	    <a href="/#/data" class="nav-link ps-2 d-flex cursor-pointer align-items-center" >
-	    <div class="w-100 d-flex align-items-center justify-content-between">                           <div>                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">Data Analytics</h6>          </div>                                       </div>  
-	    </a>
-    </div>
-
-
-    <div class="d-flex">                        <div class="icon h-10 me-3 d-flex mt-1">         <i class="ni ni-single-copy-04 text-gradient text-primary"></i>                             </div>  
-	    <a href="/#/cctv" class="nav-link ps-2 d-flex cursor-pointer align-items-center" >
-	    <div class="w-100 d-flex align-items-center justify-content-between">                           <div>                                            <h6 class="dropdown-header text-dark font-weight-bolder d-flex justify-content-cente align-items-center p-0">CCTV Installation</h6>          </div>                                       </div> 
-	    </a>
-    </div>
-
-
-
-  </div>
+<!-- notification for small viewports and landscape oriented smartphones -->
+<div class="device-notification">
+  <a class="device-notification--logo" href="#0">
+    <img src="assets/img/logo.png" alt="Global">
+    <p>Acsolot-AiS</p>
+  </a>
+  <p class="device-notification--message">We has so much to offer that we must request you orient your device to portrait or find a larger screen. You won't be disappointed.</p>
 </div>
 
+<div class="perspective effect-rotate-left">
+  <div class="container"><div class="outer-nav--return"></div>
+    <div id="viewport" class="l-viewport">
+      <div class="l-wrapper">
+        <header class="header">
+          <a class="header--logo" href="#0">
+            <img src="assets/img/logo.png" alt="Ais logo">
+            <p>Acsolot-AiS</p>
+          </a>
+          <button class="header--cta cta">Hire Us</button>
+          <div class="header--nav-toggle">
+            <span></span>
+          </div>
+        </header>
+        <nav class="l-side-nav">
+          <ul class="side-nav">
+            <li class="is-active"><span>Home</span></li>
+            <li><span>Works</span></li>
+            <li><span>About</span></li>
+            <li><span>Contact</span></li>
+            <li><span>Hire us</span></li>
           </ul>
-        </li>
+        </nav>
+        <ul class="l-main-content main-content">
+          <li class="l-section section section--is-active">
+            <div class="intro">
+              <div class="intro--banner">
+                <h1>We offer<br>extra-ordinaire solutions<br>for your brand</h1>
+                <button class="cta">Hire Us
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                  <span class="btn-background"></span>
+                </button>
+                <img src="assets/img/introduction-visual.png" alt="Welcome">
+              </div>
+              <!--div class="intro--options">
+                <a href="#0">
+                  <h3>Metiew &amp; Smith</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Fantasy interactive</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+                <a href="#0">
+                  <h3>Paul &amp; shark</h3>
+                  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit sed do.</p>
+                </a>
+              </div-->
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="work">
+              <h2>Our Services</h2>
+              <div class="work--lockup">
+                <ul class="slider">
+                  <li class="slider--item slider--item-left">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/web-bg.jpeg" alt="Web application development">
+                      </div>
+                      <p class="slider--item-title">Web Application Development</p>
+                      <p class="slider--item-description">Web Application Development Web Application Development Web Application Development.</p>
+                    </a>
+                  </li>
+                  
+                  <li class="slider--item slider--item-center">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/network-bg.jpeg" alt="Network">
+                      </div>
+                      <p class="slider--item-title">Network Engineering</p>
+                      <p class="slider--item-description justify-contents-between">We help homes and businesses to manage and interconnect their computing devices via physical or wireless technologies; so they can exchange data and share resources(internet, files etc.) with each other.
+                      </p>
+                    </a>
+                  </li>
+                  <li class="slider--item slider--item-right">
+                    <a href="#0">
+                      <div class="slider--item-image">
+                        <img src="assets/img/data-bg.jpeg" alt="Alex Nowak">
+                      </div>
+                      <p class="slider--item-title">Data Analytics</p>
+                      <p class="slider--item-description">We help individuals and organizations make sense of their data by helping them answer business questions, discover relationships, predict unknown outcomes and automate decisions.
+                      </p>
+                    </a>
+                  </li>
+                </ul>
+                <div class="slider--prev">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                  viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M561,1169C525,1155,10,640,3,612c-3-13,1-36,8-52c8-15,134-145,281-289C527,41,562,10,590,10c22,0,41,9,61,29
+                    c55,55,49,64-163,278L296,510h575c564,0,576,0,597,20c46,43,37,109-18,137c-19,10-159,13-590,13l-565,1l182,180
+                    c101,99,187,188,193,199c16,30,12,57-12,84C631,1174,595,1183,561,1169z"/>
+                  </g>
+                  </svg>
+                </div>
+                <div class="slider--next">
+                  <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                  <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                    <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                  </g>
+                  </svg>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about">
+              <div class="about--banner">
+                <h2>We<br>believe in<br>passionate<br>people</h2>
+                <a href="#0">Career
+                  <span>
+                    <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 150 118" style="enable-background:new 0 0 150 118;" xml:space="preserve">
+                    <g transform="translate(0.000000,118.000000) scale(0.100000,-0.100000)">
+                      <path d="M870,1167c-34-17-55-57-46-90c3-15,81-100,194-211l187-185l-565-1c-431,0-571-3-590-13c-55-28-64-94-18-137c21-20,33-20,597-20h575l-192-193C800,103,794,94,849,39c20-20,39-29,61-29c28,0,63,30,298,262c147,144,272,271,279,282c30,51,23,60-219,304C947,1180,926,1196,870,1167z"/>
+                    </g>
+                    </svg>
+                  </span>
+                </a>
+                <img src="assets/img/about-visual.png" alt="About Us">
+              </div>
+              <div class="about--options1">
+                <a href="#0">
+                  <h3>Winners</h3>
+                </a>
+                <a href="#0">
+                  <h3>Philosophy</h3>
+                </a>
+                <a href="#0">
+                  <h3>History</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="contact">
+              <div class="contact--lockup">
+                <div class="modal">
+                  <div class="modal--information">
+                    <p>10, Adeniran Abdulkareem Street, Basin, Ilorin, Nigeria.</p>
+                    <p>1, Oribanwa Street, Ibeju-Lekki, Ajah, Lagos,Nigeria.</p>
+                    <a href="mailto:ouremail@gmail.com">acsolotltd@gmail.com</a>
+                    <a href="tel:+2348100482341">+234 (0) 81 004 823 41</a>
+                  </div>
+                  <ul class="modal--options">
+                    <!--li><a href="#0">Bēhance</a></li-->
+                    <li><a href="https://www.facebook.com/AgesXpat">Facebook</a></li>
+                    <li><a href="https://wa.me/+2349023394664">WhatsApp</a></li>
+                    <li><a href="mailto:acsolotltd@gmail.com">Contact Us</a></li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="hire">
+              <h2>You want us to do</h2>
+              <!-- checkout formspree.io for easy form setup -->
+              <form class="work-request">
+                <div class="work-request--options">
+                  <span class="options-a">
+                    <input id="opt-1" type="checkbox" value="app design">
+                    <label for="opt-1">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      App Design
+                    </label>
+                    <input id="opt-2" type="checkbox" value="graphic design">
+                    <label for="opt-2">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Network Engineering
+                    </label>
+                    <input id="opt-3" type="checkbox" value="motion design">
+                    <label for="opt-3">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      Consultancy
+                    </label>
+                  </span>
+                  <span class="options-b">
+                    <input id="opt-4" type="checkbox" value="ux design">
+                    <label for="opt-4">
+                      <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+                      viewBox="0 0 150 111" style="enable-background:new 0 0 150 111;" xml:space="preserve">
+                      <g transform="translate(0.000000,111.000000) scale(0.100000,-0.100000)">
+                        <path d="M950,705L555,310L360,505C253,612,160,700,155,700c-6,0-44-34-85-75l-75-75l278-278L550-5l475,475c261,261,475,480,475,485c0,13-132,145-145,145C1349,1100,1167,922,950,705z"/>
+                      </g>
+                      </svg>
+                      UX Design
+                    </label>
+                  
+                  </span>
+                </div>
+                <div class="work-request--information">
+                  <div class="information-name">
+                    <input id="name" type="text" spellcheck="false">
+                    <label for="name">Name</label>
+                  </div>
+                  <div class="information-email">
+                    <input id="email" type="email" spellcheck="false">
+                    <label for="email">Email</label>
+                  </div>
+                  
+                  <div class="information-phone">
+                    <input id="phone" type="tel">
+                    <label for="phone">Phone Number</label>
+                  </div>
+                
+                  
+                </div>
+                <input type="submit" value="Send Request">
+              </form>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about" id="about-ais">
+              <div class="about--banner">
+                <h2>We<br>believe in<br>passionate<br>people</h2>
+                
+                <img src="assets/img/about-visual.png" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="#0">
+                  <h3>Winners</h3>
+                </a>
+                <a href="#0">
+                  <h3>Philosophy</h3>
+                </a>
+                <a href="#0">
+                  <h3>History</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+          <li class="l-section section">
+            <div class="about" id="about-md">
+              <div class="about--banner">
+                <h2>.Who<br>.we are:</h2>
+                <p>
+              Acsolot Integrated Services Limited, AIS; formally Ages Xpat Technology, is a NG-based IT-consulting and software development company founded in the year 2009; out of burning passion to help global companies and established brands to achieve and accelerates business growth at a reduced cost.
 
 
-
-	<li class="nav-item mx-2">                              <a href="/#/contact" class="nav-link ps-2 d-flex cursor-pointer align-items-center" aria-expanded="false">
-			<i class="material-icons opacity-6 me-2 text-md">dashboard</i>                         Contact us
-		</a>
-	</li>
-
-        </li>
-      </ul>
+                </p>
+                <p>
+                 AIS: Your tech plug
+                 Acsolot Integrated Services, AIS is a tech giant keen at delivering quality, scalable and state of the art projects that will even stand beyond the test of time.
+                </p>
+                <img src="assets/img/about-visual.png" alt="About Us">
+              </div>
+              <div class="about--options">
+                <a href="#0">
+                  <h3>Winners</h3>
+                </a>
+                <a href="#0">
+                  <h3>Philosophy</h3>
+                </a>
+                <a href="#0">
+                  <h3>History</h3>
+                </a>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </div>
     </div>
   </div>
-</nav>
-<!-- End Navbar -->
-</div></div></div>
-
-<section class="mx-auto">
-  <div class="page-header min-vh-100 absolute" style="background-image: url('./assets/img/background.jpeg')">
-
-    <span class="mx-auto mask bg-gradient-primary opacity-4"></span>
-
-<div id="root"></div>
-
-<script type='text/babel'>
-      const Link = ReactRouterDOM.Link;
-      const Route = ReactRouterDOM.Route;
-
-      const App = () => (
-        <ReactRouterDOM.HashRouter>
-          <Route path="/" exact component={Home} />
-          <Route path="/about" component={About} />
-	  <Route path="/cctv" component={Cctv} />
-          <Route path="/data" component={Data} />               <Route path="/web" component={Web} />
-	  <Route path="/network" component={Network} />
-	  <Route path="/contact" component={Contact} />
-        </ReactRouterDOM.HashRouter>
-      );
-
-function Home(){ return  (  
-<div className="card d-flex mx-auto justify-content-center blur shadow-blur shadow-lg my-sm-0  mx-3 mx-md-4 mt-8 mb-5">                                                  <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">           <div className="bg-gradient-primary shadow-primary border-radius-lg p-3">                             <h3 className="text-white text-primary mb-                                              0">Home</h3>                                                </div>                                          </div>                                                                                        <div className="card-body">                                   <div className="container">                                   <div className="row">
-<div className="col-lg-8">
- <h2 className="text-dark mb-0 mt-0"><abbr title="Acsolot Integrated Services Limited" >AIS</abbr>: Your tech plug</h2>                                                 <p className="text-sm text-justify">Acsolot Integrated Services, AIS is a tech giant keen at delivering quality, scalable and state of the art projects that will even stand beyond the test of time.
-<br/>
-Our services includes:
-</p>
-
-<ul className="list text-sm"> 
-<li>Web Applications Development</li>             <li>Network Engineering</li>
-<li>Data Analytics</li>
-<li>CCTV Installation</li> 
-<li>Training</li>
-</ul>
-
-</div> 
-</div>                                            </div>                                            </div>                                            </div>
-
-  )
-};
-
-
-function About(){ return (
-<div className="card d-flex  justify-content-center blur shadow-blur shadow-lg my-sm-0  mx-auto mt-8 mb-5">                                                  <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">
-          <div className="bg-gradient-primary shadow-primary border-radius-lg p-3">
-            <h3 className="text-white text-primary mb-
-0">About</h3>
-                </div>                                          </div>                                                                                        <div className="card-body">                                   <div className="container">                                   <div className="row">
-
-    <div className="col-lg-10">
-
-        <h2 className="text-dark mb-0 mt-0">
-	  Who we are
-	  </h2>
-        <p className="text-sm text-justify">Acsolot Integrated Services Limited, AIS;
-	formally Ages Xpat Technology, is a NG-based IT-consulting and software development company
-	founded in the year 2009; out of burning passion to help global companies and established brands
-	to achieve and accelerates business growth at a reduced cost.
-	</p>
-        </div>
-	</div>
-	</div>
-	</div>                                            </div>
-	
-  )
-
-};
-
-function Web(){ 
-return (
-<div className="card d-flex  justify-content-center blur shadow-blur shadow-lg my-sm-0  mx-3 mx-md-4 mt-8 mb-5">                                                  <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">           <div className="bg-gradient-primary shadow-primary border-radius-lg p-3">                             <h3 className="text-white text-primary mb-                                              0">Web Application</h3>                                                </div>                                          </div>                                                                                        <div className="card-body">                                   <div className="container">                                   <div className="row">
-      <div className="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-0">
-        <div className="rotating-card-container">
-          <div className="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-2">
-	    <div className="web-image front front-background" >
-              <div className="card-body py-7 text-center">
-                <i className="material-icons text-white text-4xl my-3">touch_app</i>
-                <h3 className="text-white">Web Design<br />& Development</h3>
-                <p className="text-white opacity-8">All the Bootstrap components that you need in a development have been re-design with the new look.</p>
-              </div>
-            </div>
-            <div className="back back-background" >
-              <div className="card-body pt-7 text-center">
-                <h3 className="text-white">Discover More</h3>
-                <p className="text-white opacity-8"> You will save a lot of time going from prototyping to full-functional code because all elements are implemented.</p>
-                <a href="./sections/page-sections/hero-sections.html" target="_blank" className="btn btn-white btn-sm w-50 mx-auto mt-3">Start with Headers</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-      </div>                                            </div>                                            </div>                                            </div>
-)
-};
-
-
-function Network(){
-     return (
-
-<div className="card d-flex  justify-content-center blur shadow-blur shadow-lg my-sm-0  mx-3 mx-md-4 mt-8 mb-5">                                                  <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">           <div className="bg-gradient-primary shadow-primary border-radius-lg p-3">                             <h3 className="text-white text-primary mb-                                              0">Network Engineering</h3>                                                </div>                                          </div>                                                                                        <div className="card-body mt-0">                                   <div className="container">                                   <div className="row">
-      <div className="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-2">                                                                                  <div className="rotating-card-container">
-          <div className="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5">
-            <div className="network-image front front-background" >
-              <div className="card-body py-7 text-center">
-                <i className="material-icons text-white text-4xl my-3">touch_app</i>
-                <h3 className="text-white">Computer Networking</h3>
-                <p className="text-white opacity-8">
-
-		We help homes and businesses to manage and interconnect their computing devices via physical or wireless technologies; so they can exchange data and share resources(internet, files etc.)  with each other.
-
-		</p>
-              </div>
-            </div>
-            <div className="back back-background" >
-              <div className="card-body pt-7 text-center">
-                <h3 className="text-white">Discover More</h3>                                                                                                 <p className="text-white opacity-8"> You will save a lot of time going from prototyping to full-functional code because all elements are implemented.</p>
-                <a href=".//sections/page-sections/hero-sections.html" target="_blank" className="btn btn-white btn-sm w-50 mx-auto mt-3">Start with Headers</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div> 
-      </div>                                            </div>                                            </div>                                            </div>
-)};
-
-function Data(){
-return (
-<div className="card d-flex  justify-content-center blur shadow-blur shadow-lg my-sm-0 mx-auto mt-8 mb-5">                                                  <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">           <div className="bg-gradient-primary shadow-primary border-radius-lg p-3">                             <h3 className="text-white text-primary mb-                                              0">Data Analytics</h3>                                                </div>                                          </div>                                                                                        <div className="card-body">                                   <div className="container">                                   <div className="row">
-      <div className="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-2">                                                                                  <div className="rotating-card-container">                                                                                                       <div className="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-2">
-            <div className="front front-background" >
-              <div className="card-body py-4 text-center">
-                <i className="material-icons text-white text-4xl my-3">touch_app</i>
-                <h3 className="text-white">Data Analytics</h3>
- <p className="text-white text-justify opacity-8">
-We help individuals and organizations make sense of their data to in order to help them answer business questions, discover relationships, predict unknown outcomes and automate decisions.
- </p>                                                                                                                                                </div>
-            </div>                                                                                                                                        <div className="back back-background" >
-              <div className="card-body pt-4 text-center">
-                <h3 className="text-white">
-		Data Ana
-		</h3>
-                <p className="text-white opacity-8"> You will save a lot of time going from prototyping to full-functional code because all el
-ements are implemented.</p>
-                <a href=".//sections/page-sections/hero-sections.html" target="_blank" className="btn btn-white btn-sm w-50 mx-auto mt-3">Star
-t with Headers</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      </div>                                            </div>                                            </div>                                            </div>
-)
-};
-
-
-function Cctv(){
-return ( 
-<div className="card d-flex  justify-content-center blur shadow-blur shadow-lg my-sm-0 mx-auto mt-8 mb-5">                                                  <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">           <div className="bg-gradient-primary shadow-primary border-radius-lg p-3">                             <h3 className="text-white text-primary mb-0">Security/Surveillance</h3>                                                </div>                                          </div>                                                                                        <div className="card-body">                                   <div className="container">                                   <div className="row">
-      <div className="col-lg-4 ms-auto me-auto p-lg-4 mt-lg-0 mt-2">                                                                                  <div className="rotating-card-container">                                                                                                       <div className="card card-rotate card-background card-background-mask-primary shadow-primary mt-md-0 mt-5">
-            <div className="cctv-image front front-background" >
-              <div className="card-body py-5 text-center">
-                <h3 className="text-white">CCTV Installation</h3>
-     <p className="text-white text-justify opacity-8">
-     At Acsolot, we install Surveillance/CCTV camera that can help prevent personal and property crimes by monitoring, transmitting and recording images.
-     These cameras are capable to record around-the-clock to ensure that you never miss an important moment. With a modern CCTV system, you can even monitor your business on your smartphone or tablet while on-the-go.
-     </p>
-
-     <i className="material-icons text-white text-4xl my-3">touch_app</i>
-     </div>
-            </div>                                                                                                                                        <div className="back back-background" >
-              <div className="card-body pt-7 text-center">
-                <h3 className="text-white">Discover More</h3>
-                <p className="text-white opacity-8 text-justify"> You will save a lot of time going from prototyping to full-functional code because all el
-ements are implemented.</p>
-                <a href=".//sections/page-sections/hero-sections.html" target="_blank" className="btn btn-white btn-sm w-50 mx-auto mt-3">Star
-t with Headers</a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
-      </div>                                            </div>                                            </div>                                            </div>
-)
-};
-
-
-
-function Contact(){ return (  
-<div className="card d-flex justify-content-center blur shadow-blur shadow-lg my-sm-0 mx-auto mt-8 mb-5">                                                  <div className="card-header p-0 position-relative mt-n4 mx-3 z-index-2 bg-transparent">           <div className="bg-gradient-primary shadow-primary border-radius-lg p-3">                             <h3 className="text-white text-primary mb-                                              0">Contact us</h3>                                                </div>                                          </div>                                                                                        <div className="card-body">                                   <div className="container">                                   <div className="row">
-<div className="col-lg-8">                               <span className="badge bg-primary mb-3">Contact</span>                                                        <h2 className="text-dark mb-0 mt-0">                   Contact Us </h2>
-<form role="form" id="contact-form" method="post" autocomplete="off">
-          <div className="card-body">
-            <div className="row">
-              <div className="col-md-6">
-                <div className="input-group input-group-dynamic mb-4">
-                  <label className="form-label">First Name</label>
-                  <input className="form-control" aria-label="First Name..." type="text" />
-                </div>
-              </div>
-              <div className="col-md-6 ps-2">
-                <div className="input-group input-group-dynamic">
-                  <label className="form-label">Last Name</label>
-                  <input type="text" className="form-control" placeholder="" aria-label="Last Name..." />
-                </div>
-              </div>
-            </div>
-            <div className="mb-4">
-              <div className="input-group input-group-dynamic">
-                <label className="form-label">Email Address</label>
-                <input type="email" className="form-control" />
-              </div>
-            </div>
-            <div className="input-group mb-4 input-group-static">
-              <label>Your message</label>
-              <textarea name="message" className="form-control" id="message" rows="4"></textarea>
-            </div>
-            <div className="row">
-              <div className="col-md-12">
-                <button type="submit" className="btn bg-gradient-dark w-100">Send Message</button>
-              </div>
-            </div>
-          </div>
-        </form>
-                                               
-</div> 
-
-</div>                                            </div>                                            </div>                                            </div>
-)                                                                                                         };
-
-ReactDOM.render(<App />, document.querySelector('#root'));
-
-</script>
+  <ul class="outer-nav">
+    <li class="is-active">Home</li>
+    <li>Services</li>
+    <li>About</li>
+    <li>Contact</li>
+    <li>Hire us</li>
+  </ul>
 </div>
 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="assets/js/vendor/jquery-2.2.4.min.js"><\/script>')</script>
+<script src="assets/js/functions-min.js"></script>
 
-</section>
-
-
-
-
-
-
-
-
-
-
-<!--   React Files   -->                            <!--script src="./components/content.js" type="text/babel"></script-->
-
-
-<!--   Core JS Files   -->
-<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
-<script src="./assets/js/plugins/perfect-scrollbar.min.js"></script>
-
-
-
-
-<!--  Plugin for TypedJS, full documentation here: https://github.com/inorganik/CountUp.js -->
-<script src="./assets/js/plugins/countup.min.js"></script>
-
-
-
-
-
-<script src="./assets/js/plugins/choices.min.js"></script>
-
-
-
-<script src="./assets/js/plugins/prism.min.js"></script>
-<script src="./assets/js/plugins/highlight.min.js"></script>
-
-
-
-<!--  Plugin for Parallax, full documentation here: https://github.com/dixonandmoe/rellax -->
-<script src="./assets/js/plugins/rellax.min.js"></script>
-<!--  Plugin for TiltJS, full documentation here: https://gijsroge.github.io/tilt.js/ -->
-<script src="./assets/js/plugins/tilt.min.js"></script>
-<!--  Plugin for Parallax, full documentation here: https://github.com/wagerfield/parallax  -->
-<script src="./assets/js/plugins/parallax.min.js"></script>
-
-
-<!-- Control Center for Material UI Kit: parallax effects, scripts for the example pages etc -->
-<script src="./assets/js/material-kit.min.js?v=3.0.2" type="text/javascript"></script>
-
-
-<script type="text/javascript">
-
-  if (document.getElementById('state1')) {
-    const countUp = new CountUp('state1', document.getElementById("state1").getAttribute("countTo"));
-    if (!countUp.error) {
-      countUp.start();
-    } else {
-      console.error(countUp.error);
-    }
-  }
-  if (document.getElementById('state2')) {
-    const countUp1 = new CountUp('state2', document.getElementById("state2").getAttribute("countTo"));
-    if (!countUp1.error) {
-      countUp1.start();
-    } else {
-      console.error(countUp1.error);
-    }
-  }
-  if (document.getElementById('state3')) {
-    const countUp2 = new CountUp('state3', document.getElementById("state3").getAttribute("countTo"));
-    if (!countUp2.error) {
-      countUp2.start();
-    } else {
-      console.error(countUp2.error);
-    };
-  }
-</script>
-
-
-<!-- particles scripts -->
-<script src="./assets/js/particles.js"></script>
-<script src="./assets/js/app.js"></script>
-
-
-<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-
-
-<script async src='https://d2mpatx37cqexb.cloudfront.net/delightchat-whatsapp-widget/embeds/embed.min.js'></script>
-
-
+</body>
 <!--Start of Tawk.to Script-->
 <script type="text/javascript">
 var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
@@ -499,7 +330,4 @@ s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
 </script>
-<!--End of Tawk.to Script-->
-</body>
-
 </html>
